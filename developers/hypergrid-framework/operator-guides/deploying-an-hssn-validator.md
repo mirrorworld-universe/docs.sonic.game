@@ -1,8 +1,8 @@
 ---
+icon: server
 description: >-
   Step-by-step guide for deploying a new HSSN Validator Node, including system
   requirements, hardware configurations, and setup instructions.
-icon: server
 ---
 
 # Deploying an HSSN Validator
@@ -187,7 +187,7 @@ You can confirm that your node was successfully registered with the following co
 
 You should be able to see your validator node in the list of validators. You should also see your validator in the [Validators page of the HSSN Explorer](https://explorer-hssn.hypergrid.dev/validators).
 
-You should be able to participate in voting on HSSN network at this stage.
+Congratulations! You should now be successfully running your HSSN node at this stage.
 
 ***
 
