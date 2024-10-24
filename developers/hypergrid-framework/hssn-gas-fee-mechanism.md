@@ -52,7 +52,7 @@ When a Grid node receives a user's transaction request:
 * This program periodically forwards gas fee bills to HSSN validators
 * Users can view transaction order details on the [HSSN Dashboard](https://explorer-hssn.hypergrid.dev/fee) under the "Grid Block Fee" tab
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. Execution and Viewing of Bills by Sonic Grid
 
@@ -60,7 +60,7 @@ When a Grid node receives a user's transaction request:
 * It periodically executes these bills in batches
 * Users can view packaged and executed bill details on the [HSSN Dashboard](https://explorer-hssn.hypergrid.dev/fee) under the "Fee Settlement" tab
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 4. Final Gas Fee Distribution
 
