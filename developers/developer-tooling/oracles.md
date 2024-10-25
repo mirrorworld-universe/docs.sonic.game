@@ -20,9 +20,9 @@ For more information, check out the official [Pyth documentation](https://docs.p
 
 ## Pyth on Sonic
 
-The Pyth Network smart contract is available at the following address:
+The Pyth Network smart contract is available at the following addresses:
 
-Receiver address:
+Receiver program:
 
 - Testnet: [rec5EKMGg6MxZYaMdyBfgwp4d5rB9T1VQH5pJv5LtFJ](https://explorer.sonic.game/address/rec5EKMGg6MxZYaMdyBfgwp4d5rB9T1VQH5pJv5LtFJ?cluster=testnet)
 - Devnet: [rec5EKMGg6MxZYaMdyBfgwp4d5rB9T1VQH5pJv5LtFJ](https://explorer.sonic.game/address/rec5EKMGg6MxZYaMdyBfgwp4d5rB9T1VQH5pJv5LtFJ?cluster=devnet)
