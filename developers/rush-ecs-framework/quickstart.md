@@ -20,7 +20,7 @@ This page is <mark style="color:orange;">**Updated Daily**</mark>.
 ## Install Rush CLI with Cargo
 
 ```bash
-cargo install rush_ecs_cli
+cargo install rush-ecs-cli
 ```
 
 Check for successful installation by running
