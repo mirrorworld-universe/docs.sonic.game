@@ -1,7 +1,7 @@
 ---
 description: >-
-  Step-by-step guide for deploying a new Sonic RPC Node, including system
-  requirements, hardware configurations, and setup instructions.
+  Step-by-step guide for deploying a new Sonic RPC Node on Testnet V1, including
+  system requirements, hardware configurations, and setup instructions.
 ---
 
 # Deploying a Sonic RPC Node
@@ -29,8 +29,8 @@ description: >-
 
 | Configuration | CPU      | RAM   | SSD  |
 | ------------- | -------- | ----- | ---- |
-| Low-End       | 64-core  | 256GB | 10TB |
-| Mid-Range     | 128-core | 512GB | 15TB |
+| Low-End       | 64-core  | 512GB | 10TB |
+| Mid-Range     | 128-core | 1T    | 15TB |
 
 ###
 
@@ -38,13 +38,15 @@ description: >-
 
 * Open ports 80 and 443 for RPC external services.
 * Open TCP and UDP protocol ports in the range of 8000 to 9000.
-* Whitelist IP addresses 52.10.174.63 and 35.164.22.3.
+* Whitelist IP addresses 52.13.90.86.
 
 After configuration, send your server's public IP address to [operators@sonic.game](mailto:operators@sonic.game).
 
 ## System Tuning
 
-Optimize sysctl knobs:
+Your system needs to be tuned to run properly. Your RPC validator may not start without these settings.
+
+### Optimize sysctl knobs:
 
 ```bash
 sudo bash -c "cat >/etc/sysctl.d/21-solana-validator.conf <<EOF
@@ -60,12 +62,29 @@ vm.max_map_count = 1000000
 # Increase number of allowed open file descriptors
 fs.nr_open = 1000000
 EOF"
+
 sudo sysctl -p /etc/sysctl.d/21-solana-validator.conf
 ```
 
-Increase systemd and session file limits:
+### Increase systemd and session file limits:
+
+Add to the `[Service]` section of your `systemd` service file:
+
+```sh
+LimitNOFILE=1000000
+```
+
+Or add to the `[Manager]` section of `/etc/systemd/system.conf`:
+
+```sh
+DefaultLimitNOFILE=1000000
+```
+
+Then run:
 
 ```bash
+sudo systemctl daemon-reload
+
 sudo bash -c "cat >/etc/security/limits.d/90-solana-nofiles.conf <<EOF
 # Increase process file descriptor count limit
 * - nofile 1000000
@@ -73,21 +92,21 @@ EOF"
 ```
 
 {% hint style="warning" %}
-**Important**: Close all open sessions after making these changes.
+**Important**: Close all open sessions. Log out then log in again after making these changes.
 {% endhint %}
 
-## Install Sonic Devnet Validator
+## Install Sonic Testnet Validator
 
 ### Option 1: Pre-built Binary Package
 
 ```bash
-bashCopywget https://grid-sonic.hypergrid.dev/downloads/hypergrid-rpcnode.tar.gz
-tar -zxvf hypergrid-rpcnode.tar.gz
+wget https://grid-sonic.hypergrid.dev/downloads/sonic_testnet_grid_v1.tar.gz
+tar -zxvf sonic_testnet_grid_v1.tar.gz
 ```
 
 ### Option 2: Build from Source Code
 
-Install dependencies:
+#### 1. Install dependencies:
 
 ```bash
 curl https://sh.rustup.rs -sSf | sh
@@ -96,19 +115,29 @@ rustup component add rustfmt
 
 sudo apt-get update
 sudo apt-get install libssl-dev libudev-dev pkg-config zlib1g-dev llvm clang cmake make libprotobuf-dev protobuf-compiler
+```
 
-git clone https://github.com/mirrorworld-universe/hypergrid-sonic-origin-grid
-cd hypergrid-sonic-origin-grid
+#### 2. Download the source code:
 
-mkdir ~/grid_node
-./scripts/cargo-install-all.sh ~/grid_node
-cp ./run_rpcnode.sh ~/grid_node/
+```bash
+git clone https://github.com/mirrorworld-universe/hypergrid-grid
+cd hypergrid-grid
+git checkout base_on_1.18.23
+```
+
+#### 3. Build
+
+```sh
+mkdir ~/sonic_node
+./scripts/cargo-install-all.sh ~/sonic_node
+cp ./start_node.sh ~/sonic_node/
+cp ./stop_node.sh ~/sonic_node/
 ```
 
 ## Initialization
 
 ```bash
-cd ~/grid_node
+cd ~/sonic_node
 mkdir config
 mkdir logs
 
@@ -117,22 +146,40 @@ mkdir logs
 ./bin/solana-keygen new -o ./config/validator-keypair.json
 ```
 
-## Configuration
-
-Edit the `run_rpcnode.sh` file and replace `YOUR_PUBLIC_IP` with your machine's public IP address.
-
-## Running the Node
+## Check System Variables
 
 ```bash
-./run_rpcnode.sh
+cat /proc/sys/net/core/rmem_default
+cat /proc/sys/net/core/rmem_max
+cat /proc/sys/net/core/wmem_default
+cat /proc/sys/net/core/wmem_max
+cat /proc/sys/vm/max_map_count
+cat /proc/sys/fs/nr_open
+cat /proc/sys/fs/file-max
+cat /proc/sys/vm/swappiness
 ```
 
-This script contains various configuration options. Ensure you replace **`YOUR_PUBLIC_IP`** with your actual public IP address, **`KNOWN_VALIDATOR`**, with the public address of the known validator on the cluster, and **`GENESIS_HASH`** with the genesis hash of the cluster you are deploying for.
+## Configuration
+
+Edit the `start_node.sh` file and replace **`YOUR_PUBLIC_IP`** with your machine's public IP address.
+
+This script contains various configuration options. Ensure you replace **`YOUR_PUBLIC_IP`** with your actual public IP address, **`VALIDATOR_ID`**, with the public address of the known validator on the cluster, and **`VALIDATOR_GENESIS_HASH`** with the genesis hash of the cluster you are deploying for.
 
 ```sh
-./bin/solana-validator \
+mkdir -p /data/logs
+mkdir -p /data1/accounts
+mkdir -p /data/ledger
+
+#!/bin/bash
+export PATH=/bin:/usr/bin:/root/sonic_node/bin
+export RUST_LOG=${RUST_LOG:-solana=info,solana_runtime::message_processor=info,solana_metrics::metrics=warn}
+export RUST_BACKTRACE=full
+export SONIC_FEE_MULTIPLIER=5000
+
+exec solana-validator \
     --identity ./config/validator-keypair.json \
-    --known-validator KNOWN_VALIDATOR \
+    --known-validator VALIDATOR_ID \
+    --repair-validator VALIDATOR_ID \
     --ledger ./ledger \
     --rpc-port 8899 \
     --full-rpc-api \
@@ -141,7 +188,7 @@ This script contains various configuration options. Ensure you replace **`YOUR_P
     --only-known-rpc \
     --gossip-host YOUR_PUBLIC_IP \
     --gossip-port 8001 \
-    --entrypoint 52.10.174.63:8001 \
+    --entrypoint 52.13.90.86:8001 \
     --public-rpc-address YOUR_PUBLIC_IP:8899 \
     --enable-rpc-transaction-history \
     --enable-extended-tx-metadata-storage \
@@ -155,33 +202,40 @@ This script contains various configuration options. Ensure you replace **`YOUR_P
     --accounts-db-cache-limit-mb 102400 \
     --accounts-index-memory-limit-mb 40960 \
     --accounts-index-scan-results-limit-mb 40960 \
-    --limit-ledger-size 5000000000 \
-    --expected-genesis-hash GENESIS_HASH \
+    --limit-ledger-size 500000000 \
+    --expected-genesis-hash VALIDATOR_GENESIS_HASH \
     --wal-recovery-mode skip_any_corrupted_record \
     --log ./logs/validator.log &
 ```
 
-### Devnet Variables:
+Make sure to replace **`YOUR_PUBLIC_IP`** with your actual public IP address, and replace **`VALIDATOR_ID`** and **`VALIDATOR_GENESIS_HASH`** with the right values.
 
-* `KNOWN_VALIDATOR`: CQqu5MsTpH1mTwEsZ75QzPtXGTz9ziEvKwpcAstKG9WJ
-* `GENESIS_HASH` : BsJstMXKW4DpjzHPsSCdEcAn4YtpNiLFRFa5M5L7UxFx
+### Testnet V1 Variables:
 
-### Testnet Variables:
+* **`VALIDATOR_ID`**: `Ci2TRaVpJoNmTUVhw5tkTVnskXVJ7FQHCMKRFGrQSHJB`
+* **`VALIDATOR_GENESIS_HASH`** : E8nY8PG8PEdzANRsv91C2w28Dbw9w3AhLqRYfn5tNv2C
 
-* `KNOWN_VALIDATOR`: `HXQyiQxmVipgohFSDex3TSyFkFp6yttF1T3Rdp7fnfZP`
-* `GENESIS_HASH` : Ep5wb4kbMk8yHqV4jMXNqDiMWnNtnTh8jX6WY59Y8Qvj
+### Devnet Variables (Deprecated):
+
+* **`VALIDATOR_ID`**: `CQqu5MsTpH1mTwEsZ75QzPtXGTz9ziEvKwpcAstKG9WJ`
+* **`VALIDATOR_GENESIS_HASH`** : BsJstMXKW4DpjzHPsSCdEcAn4YtpNiLFRFa5M5L7UxFx
+
+## Configuring Domain Name for your RPC Node
+
+At this point, you should be ready to configure a domain name for your service. You may use Nginx or any reverse proxy of your choice.
+
+## Running the Node
 
 ```bash
-./run_rpcnode.sh
+./start_node.sh
 ```
 
 ## Shutting Down the Node
 
-To gracefully shut down the node:
+You can gracefully shut down the node by running the following command inside the `~/sonic_node`directory
 
 ```bash
-cd ~/grid_node
-./bin/solana-validator exit --force
+./stop_node.sh
 ```
 
 ## Operator Guides
