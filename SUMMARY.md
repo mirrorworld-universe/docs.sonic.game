@@ -5,6 +5,11 @@
 * [Introducing Sonic](README.md)
 * [Why Choose Sonic?](welcome/why-choose-sonic.md)
 * [Sonic Whitepaper](welcome/sonic-whitepaper.md)
+* [Sorada](welcome/sorada/README.md)
+  * [Introduction](welcome/sorada/introduction.md)
+  * [Architecture](welcome/sorada/architecture.md)
+  * [How to Deploy](welcome/sorada/how-to-deploy.md)
+  * [Learn More](welcome/sorada/learn-more.md)
 
 ## 🔎 Developers
 
