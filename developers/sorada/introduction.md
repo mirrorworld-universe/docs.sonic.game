@@ -1,5 +1,7 @@
 ---
-description: This page introduces Sorada, Sonic's Data Solution.
+description: >-
+  A comprehensive introduction to Sorada, Sonic SVM's archival RPC data indexing
+  and read-optimization solution
 ---
 
 # Introduction
@@ -27,7 +29,7 @@ Similar to performance, companies cannot optimally adapt to the demands of their
 
 This is another critical business requirement because scalability goes beyond performance and impacts the financial feasibility of operating.
 
-### How Blockchain Indexing help solve this problem
+## How Blockchain Indexing solves this problem
 
 Blockchain Indexing is the process of querying historical data directly from the network and storing them in in-house provisioned infrastructure.
 
@@ -39,7 +41,7 @@ A typical and simplified Blockchain Indexing pipeline would have the following f
 
 This way, the Company has internal control over the Performance and Scalability of its historical data needs.
 
-## A Sonic Case Study: 85% Archival Reads
+## Case Study – Sonic SVM's 85% Archival Reads
 
 According to Sonic's internal [Hypergrid](https://docs.sonic.game/developers/hypergrid-framework/hypergrid-infrastructure) Infrastructure monitoring, Sonic experienced around **85% Archival Read Requests vs 15% Write Requests**.
 
@@ -53,5 +55,7 @@ These bottlenecks were solved by decoupling typical archival read requests away 
 
 Sorada is Sonic's **Data Solution** with the main objective of decoupling **Archival Read Requests** away from **Network Write Requests.**
 
-By decoupling archival read requests away from the main Sonic Hypergrid and into a separate data-optimized infrastructure, `Bandwidth` and `Storage` bottlenecks were mitigated.
+By decoupling archival read requests away from the main Sonic validator and into a separate data-optimized infrastructure, `Bandwidth` and `Storage` bottlenecks were mitigated.
+
+Sorada enables SVM validators to release more compute resources to transaction processing, while optimizing read performance of archival requests by 30 – 40x.
 

@@ -1,5 +1,5 @@
 ---
-description: Sorada, Sonic's Data Solution
+description: Sorada – Sonic's Archival Data Solution
 ---
 
 # Sorada

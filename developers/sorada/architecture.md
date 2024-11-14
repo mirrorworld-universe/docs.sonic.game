@@ -26,8 +26,6 @@ The Replicator service replicates the indexed data from the big table storage to
 
 
 
-
-
 ## Data Repositories
 
 Sorada utilizes three (3) different data repository types for a robust data preservation infrastructure.
@@ -36,7 +34,7 @@ Sorada utilizes three (3) different data repository types for a robust data pres
 
 ### Cache
 
-Sorada utilizes a Cache for an efficient retrieval of repetitive requests.
+Sorada utilizes a cache for an efficient retrieval of repetitive requests.
 
 ### Big Table
 

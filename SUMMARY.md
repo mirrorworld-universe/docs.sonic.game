@@ -5,11 +5,6 @@
 * [Introducing Sonic](README.md)
 * [Why Choose Sonic?](welcome/why-choose-sonic.md)
 * [Sonic Whitepaper](welcome/sonic-whitepaper.md)
-* [Sorada](welcome/sorada/README.md)
-  * [Introduction](welcome/sorada/introduction.md)
-  * [Architecture](welcome/sorada/architecture.md)
-  * [How to Deploy](welcome/sorada/how-to-deploy.md)
-  * [Learn More](welcome/sorada/learn-more.md)
 
 ## 🔎 Developers
 
@@ -43,6 +38,11 @@
     * [Deploying a Sonic RPC Node](developers/hypergrid-framework/operator-guides/deploying-a-sonic-rpc-node.md)
     * [Deploying an HSSN Validator](developers/hypergrid-framework/operator-guides/deploying-an-hssn-validator.md)
   * [Verifiable Compute & Zero-Knowledge Proofing on HyperGrid](developers/hypergrid-framework/verifiable-compute-and-zero-knowledge-proofing-on-hypergrid.md)
+* [Sorada](developers/sorada/README.md)
+  * [Introduction](developers/sorada/introduction.md)
+  * [Architecture](developers/sorada/architecture.md)
+  * [How to Deploy Sorada](developers/sorada/how-to-deploy-sorada.md)
+  * [Resources](developers/sorada/resources.md)
 
 ## 🙌 Resources
 

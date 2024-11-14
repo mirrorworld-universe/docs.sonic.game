@@ -1,28 +1,26 @@
 ---
-description: Deploy your own Sorada, today.
+description: A comprehensive guide on how to deploy Sorada for yoru own SVM instance
 ---
 
-# How to Deploy
+# How to Deploy Sorada
 
-## How to Deploy
+## System Requirements
 
-### System Requirements
-
-Operating System
+### Operating System
 
 * Ubuntu Server 22.04 LTS
 
-Hardware Requirements
+### Hardware Requirements
 
 * CPU: 2-core
 * RAM: 8GB
 * SSD: 16GB
 
-Server Port Policy
+### Server Port Policy
 
 * Open port 80 to support RPC external services.
 
-### System Tuning
+## System Tuning
 
 Optimize `sysctl` knobs
 
@@ -62,7 +60,7 @@ sudo add-apt-repository ppa:vbernat/haproxy-3.0
 sudo apt-get install haproxy=3.0.\*
 ```
 
-### Add Routing
+## Configure Routing
 
 Edit `/etc/haproxy/haproxy.cfg`, routing archival requests to archival RPC endpoint and other requests to HyperGrid.
 
@@ -82,7 +80,7 @@ Edit `/etc/haproxy/haproxy.cfg`, routing archival requests to archival RPC endpo
     default_backend HyperGrid
 ```
 
-### Start
+## Start Service
 
 ```bash
 systemctl start haproxy
