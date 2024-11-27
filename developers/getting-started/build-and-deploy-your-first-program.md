@@ -257,7 +257,7 @@ async function sayHello() {
   );
 
   console.log(
-    'Sonic Greeting succesful. Account data:',
+    'Sonic Greeting successful. Account data:',
     deserializedAccountData
   );
 }
@@ -361,7 +361,7 @@ Running the above script \[either with Solana Native, or with Anchor] programs s
 
 ```bash
 Use 'solana confirm -v TsCwj8s8meQFSfqUKdHqDQVzfUbqRcugP2gJ5kaGCj4v4D7aKvohqQQncvUFunqZVH9sS6jhESMjwe6SHGPfrXf' to see the logs
-Sonic Greeting succesful. Account data: GreetingAccount { counter: 1 }
+Sonic Greeting successful. Account data: GreetingAccount { counter: 1 }
 Done
 ```
 
