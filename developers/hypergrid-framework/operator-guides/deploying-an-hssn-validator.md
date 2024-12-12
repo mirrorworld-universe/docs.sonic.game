@@ -29,8 +29,8 @@ description: >-
 ### 1. Download and Install the Package
 
 ```bash
-wget https://grid-sonic.hypergrid.dev/downloads/hypergrid-ssn.tar.gz
-tar -zxvf hypergrid-ssn.tar.gz
+wget https://grid-sonic.hypergrid.dev/downloads/hypergrid-ssn_testnet_v1.tar.gz
+tar -zxvf hypergrid-ssn_testnet_v1.tar.gz
 ```
 
 ### 2. Initialization Settings
@@ -67,7 +67,7 @@ Update the external IP. Make sure to replace the `<YOUR_NODE_IP_ADDRESS>` with y
 
 ```toml
 external_address = "<YOUR_NODE_IP_ADDRESS>:26656"
-persistent_peers = "5a413ae5476d7ce39812b610624c070ea4356c99@52.26.118.88:26656"
+persistent_peers = "9a32c2bc295c9e3aec50449373b3c4e9acf84a0f@35.166.61.86:26656"
 ```
 
 ### 3. Run the Validator
