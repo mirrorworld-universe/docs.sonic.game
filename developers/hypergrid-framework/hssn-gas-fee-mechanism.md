@@ -26,7 +26,7 @@ This transaction can be viewed on the [Sonic Explorer](https://explorer.sonic.ga
 #### Distribution Explanation:
 
 1. **Burned Fees**: A portion of the gas fee is burned, effectively removing it from circulation. This can help control token supply and potentially increase the value of remaining tokens.
-2. **HSSN Fees**: This portion goes to the Hypergrid Shared Sequencer Network validators for their role in managing and transmitting transaction information.
+2. **HSSN Fees**: This portion goes to the Hypergrid Shared State Network validators for their role in managing and transmitting transaction information.
 3. **SONIC Fees**: This is allocated to the Sonic Grid, which is responsible for packaging and executing bills.
 4. **GRID Fees**: This portion is allocated to the Grid nodes that initially receive and process user transaction requests.
 

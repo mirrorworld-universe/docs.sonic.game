@@ -22,6 +22,6 @@ Sonic is an example of a Grid optimized for high-performance gaming. A Grid can 
 6. **Performance isolation**: By separating dApps into different Grids, the system can mitigate performance conflicts between applications and reduce strain on the Solana Base Layer.
 7. **Flexibility**: Developers can choose to use the public HyperGrid network or create their own dedicated Grid based on performance needs and cost considerations.
 8. **Independent lifecycle**: A Grid can be activated or deactivated without affecting other Grids in the system.
-9. **SVM Client Diversity:** HyperGrid is client-agnostic, meaning that it can be used with any SVM client implementation. This makes it possible for network operators on Solana to implement high-performance SVM clients while relying on HyperGrid's Shared Sequencer Network (HSSN) for consensus and interoperability.
+9. **SVM Client Diversity:** HyperGrid is client-agnostic, meaning that it can be used with any SVM client implementation. This makes it possible for network operators on Solana to implement high-performance SVM clients while relying on HyperGrid's Shared State Network (HSSN) for consensus and interoperability.
 
 In essence, a Grid serves as a scalable, flexible, and semi-independent cluster of nodes or an environment within the HyperGrid system, designed to host and manage specific dApps while maintaining a connection to the overall HyperGrid architecture and the Solana Base Layer.

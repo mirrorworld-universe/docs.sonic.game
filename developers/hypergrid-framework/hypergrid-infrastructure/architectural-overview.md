@@ -13,7 +13,7 @@ HyperGrid's architecture is predicated on a multi-grid approach, wherein each gr
 ### Key Components
 
 1. **Solana Base Layer**: The foundation upon which the HyperGrid system is built, providing ultimate consensus and finality.
-2. **HyperGrid Shared Sequencer Network (HSSN)**:
+2. **HyperGrid Shared State Network (HSSN)**:
    * Central to the architecture, spanning across all grids
    * Contains multiple validators (Validator 1 through Validator N)
    * Facilitates sharing of states between Grids and the Solana Base Layer
