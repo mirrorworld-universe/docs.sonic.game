@@ -1,15 +1,14 @@
 ---
 description: >-
-  Comprehensive guide to the Hypergrid Shared Sequencer Network (HSSN)
-  dashboard, detailing its key features and data visualization across multiple
-  pages.
+  Comprehensive guide to the Hypergrid Shared State Network (HSSN) dashboard,
+  detailing its key features and data visualization across multiple pages.
 ---
 
 # HSSN Explorer Overview
 
 ## Introduction
 
-The Sonic Hypergrid Shared Sequencer Network (HSSN) is a Cosmos-based network that operates between the Grid and the Solana Base Layer. It manages state for all communications, including inter-grid interactions and periodic synchronization of block data from the grid as a rollup to the Solana base layer.
+The Hypergrid Shared State Network (HSSN) is a Cosmos-based network that operates between the Grid and the Solana Base Layer. It manages state for all communications, including inter-grid interactions and periodic synchronization of block data from the grid as a rollup to the Solana base layer.
 
 To monitor the HSSN's operations, a dedicated dashboard has been provisioned.&#x20;
 
