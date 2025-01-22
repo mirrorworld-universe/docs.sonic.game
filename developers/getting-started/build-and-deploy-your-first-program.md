@@ -16,7 +16,7 @@ Compile your program to a BPF (Berkeley Packet Filter) executable, the format re
 
 ### **With Anchor**
 
-Run `anchor build`. Anchor manages the compilation details.
+Run `anchor build`. [Anchor](https://www.anchor-lang.com/) manages the compilation details.
 
 ### **Without Anchor**
 
@@ -36,7 +36,7 @@ After deploying your building your program and configuring your RPC URL, you can
 solana program deploy <PATH_TO_YOUR_COMPILED_PROGRAM>
 ```
 
-Ensure that you have enough SOL in your wallet to cover deployment costs. You can get some devnet tokens by using the [Sonic faucet](https://faucet.sonic.game).
+Ensure that you have enough SOL in your wallet to cover deployment costs. You can get some devnet tokens from the [Sonic faucet](https://faucet.sonic.game).
 
 ***
 
@@ -44,7 +44,7 @@ After configuring your network, you may now deploy your program to Sonic. Use th
 
 ### **With Anchor**
 
-If you have the Anchor CLI installed, you can deploy your program with the following command. This handles the deployment automatically.
+If the Anchor CLI is installed, you can deploy your program with the following command. This handles the deployment automatically.
 
 ```bash
 anchor deploy
@@ -114,7 +114,7 @@ pub fn process_instruction(
 
 ### With Anchor Program
 
-If you are building with [**Anchor**](https://anchor-lang.com), you may use the variant below. Before deploying your program, please remember to change the program ID after building your program with `anchor build`.
+If you are building with [**Anchor**](https://anchor-lang.com), you may use the variant below. Please remember to change the program ID after building your program with `anchor build` before deploying it.
 
 ```rust
 use anchor_lang::prelude::*;
@@ -365,4 +365,4 @@ Sonic Greeting succesful. Account data: GreetingAccount { counter: 1 }
 Done
 ```
 
-An example the above executed transaction can be found [here](https://explorer.sonic.game/tx/TsCwj8s8meQFSfqUKdHqDQVzfUbqRcugP2gJ5kaGCj4v4D7aKvohqQQncvUFunqZVH9sS6jhESMjwe6SHGPfrXf). The program address for this program is [here](https://explorer.sonic.game/address/BoiBFQbz4ux1rHvAhXEFgujCS57QLby6HxhvBMCp3vkp).
+You can find an example of the executed transaction [here](https://explorer.sonic.game/tx/TsCwj8s8meQFSfqUKdHqDQVzfUbqRcugP2gJ5kaGCj4v4D7aKvohqQQncvUFunqZVH9sS6jhESMjwe6SHGPfrXf). The program address for this program is [here](https://explorer.sonic.game/address/BoiBFQbz4ux1rHvAhXEFgujCS57QLby6HxhvBMCp3vkp).
