@@ -6,7 +6,7 @@ We are looking for forward-thinking engineers to contribute to a platform bringi
 
 Backed by leading investors, like Galaxy Interactive, OKX Ventures, Mirana, Republic, Big Brain Holdings, Sky9 Ventures, and Everyrealm among others, we are actively recruiting and looking forward to collaborating with great talent that is excited about this!
 
-If you this excites you, feel free to check out the Sonic Careers Page to see if there's a suitable position for you! 👇
+If this excites you, feel free to check out the Sonic Careers Page to see if there's a suitable position for you! 👇
 
 {% embed url="https://jobs.solana.com/companies/mirror-world-2" %}
 View careers at Sonic

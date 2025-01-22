@@ -10,4 +10,4 @@ HyperGrid is designed to introduce customizability and scale, while remaining na
 
 **Sonic was built to unlock new experiences for both builders, and players. 💫**
 
-We designed Sonic to be the brewing ground for  a world of high-performance decentralized gaming, creating a distinction from the traditional trading experience of in-game assets.&#x20;
+We designed Sonic to be the brewing ground for a world of high-performance decentralized gaming, creating a distinction from the traditional trading experience of in-game assets.&#x20;
