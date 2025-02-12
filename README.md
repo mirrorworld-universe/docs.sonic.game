@@ -1,13 +1,21 @@
-# Introducing Sonic
+---
+description: Understanding Sonic!
+---
 
-Sonic is the first atomic SVM chain built to enable sovereign game economies on Solana. Sonic enables sovereign game economies that rollup and settle on [Solana](https://solana.com/).
+# What is Sonic?
 
-Sonic is built on top of the first concurrent scaling framework for Solana, called HyperGrid. Sonic is the first instance of a Grid orchestrated by this framework.
+Sonic is the first atomic SVM (Solana Virtual Machine) chain engineered to enable sovereign game economies on Solana. Through its innovative HyperGrid framework, Sonic revolutionizes blockchain gaming by providing:
 
-HyperGrid is designed to introduce customizability and scale, while remaining natively composable to Solana.
+### Core Architecture
 
-### Vision
+Atomic SVM Chain
 
-**Sonic was built to unlock new experiences for both builders, and players. 💫**
+Unlike traditional Layer 2 solutions that focus on transaction batching, Sonic's atomic SVM architecture enables:
 
-We designed Sonic to be the brewing ground for a world of high-performance decentralized gaming, creating a distinction from the traditional trading experience of in-game assets.&#x20;
+* Direct state synchronization with Solana
+* Native program compatibility without modifications
+* Independent state management per grid
+* True horizontal scaling through multi-grid design
+
+
+

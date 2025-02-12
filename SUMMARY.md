@@ -1,15 +1,16 @@
 # Table of contents
 
-## 👋 Welcome
+## 👋 Introduction
 
-* [Introducing Sonic](README.md)
-* [Why Choose Sonic?](welcome/why-choose-sonic.md)
-* [Sonic Whitepaper](welcome/sonic-whitepaper.md)
+* [What is Sonic?](README.md)
+* [Sonic Whitepaper](introduction/sonic-whitepaper.md)
+* [Vision & Architecture](introduction/vision-and-architecture.md)
+* [Why Choose Sonic?](introduction/why-choose-sonic.md)
 
 ## 🔎 Developers
 
 * [Getting Started](developers/getting-started/README.md)
-  * [Setup local development](developers/getting-started/setup-local-development.md)
+  * [Setup local development for Sonic SVM](developers/getting-started/setup-local-development.md)
   * [Build & Deploy Your First Program](developers/getting-started/build-and-deploy-your-first-program.md)
 * [Infrastructure](developers/infrastructure/README.md)
   * [Clusters](developers/infrastructure/clusters.md)

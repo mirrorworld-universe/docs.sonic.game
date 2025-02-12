@@ -1,6 +1,6 @@
 # Build & Deploy Your First Program
 
-This guide provides a step-by-step overview of deploying a program on the Sonic HyperGrid. Familiarity with command-line tools is necessary.
+This guide provides a step-by-step overview of deploying a program on Sonic SVM. Familiarity with command-line tools is necessary.
 
 ## **1. Install CLI Tools**
 
