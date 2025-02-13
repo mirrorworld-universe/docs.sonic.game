@@ -38,6 +38,8 @@
     * [Deploying a New Grid](developers/hypergrid-framework/operator-guides/deploying-a-new-grid.md)
     * [Deploying a Sonic RPC Node](developers/hypergrid-framework/operator-guides/deploying-a-sonic-rpc-node.md)
     * [Deploying an HSSN Validator](developers/hypergrid-framework/operator-guides/deploying-an-hssn-validator.md)
+    * [Mainnet](developers/hypergrid-framework/operator-guides/mainnet/README.md)
+      * [Deploying an HSSN Validator](developers/hypergrid-framework/operator-guides/mainnet/deploying-an-hssn-validator.md)
   * [Verifiable Compute & Zero-Knowledge Proofing on HyperGrid](developers/hypergrid-framework/verifiable-compute-and-zero-knowledge-proofing-on-hypergrid.md)
 * [Sorada](developers/sorada/README.md)
   * [Introduction](developers/sorada/introduction.md)
