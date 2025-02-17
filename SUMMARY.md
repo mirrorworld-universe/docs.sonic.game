@@ -49,6 +49,7 @@
 
 ## 🙌 Resources
 
+* [Developer Resources](resources/developer-resources.md)
 * [Glossary](resources/glossary.md)
 * [Audit Reports](resources/audit-reports.md)
 * [Developer Community](resources/developer-community.md)

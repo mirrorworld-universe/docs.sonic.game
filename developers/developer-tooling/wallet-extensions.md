@@ -9,6 +9,9 @@ We are constantly growing the list of wallets with native support for Sonic.
 ## Native Wallet Support
 
 * [Nightly Wallet](https://nightly.app/)
+* [OKX Web3 Wallet](https://www.okx.com/download)
+* [Bybit Web3 Wallet](https://www.bybit.com/en/web3/home)
+* [Bitget Web3 Wallet](https://web3.bitget.com/en/wallet-download)
 
 ## Custom RPC URL
 
