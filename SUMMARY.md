@@ -2,15 +2,12 @@
 
 ## 🔎 Developers
 
-* [Getting Started](README.md)
+* [Welcome to Sonic](README.md)
+* [Getting Started](<README (1).md>)
   * [Setup local development for Sonic SVM](developers/getting-started/setup-local-development.md)
   * [Build & Deploy Your First Program](developers/getting-started/build-and-deploy-your-first-program.md)
 * [Infrastructure](developers/infrastructure/README.md)
   * [Clusters](developers/infrastructure/clusters.md)
-
-***
-
-* [Welcome to Sonic](welcome-to-sonic.md)
 
 ## Users
 
