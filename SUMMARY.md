@@ -63,8 +63,8 @@
   * [Reference](architecture/rush-ecs-framework/reference.md)
   * [Demo](architecture/rush-ecs-framework/demo.md)
 
-## 🙌 Additional Resources
+## RESOURCES
 
-* [Developer Resources](additional-resources/developer-resources.md)
-* [Audit Reports](additional-resources/audit-reports.md)
-* [We're Hiring!](additional-resources/were-hiring.md)
+* [Developer Resources](resources/developer-resources.md)
+* [Audit Reports](resources/audit-reports.md)
+* [We're Hiring!](resources/were-hiring.md)
