@@ -15,7 +15,7 @@ Follow this [official guide](https://solana.com/developers/guides/getstarted/set
 
 ## 2. Configure your Sonic Cluster&#x20;
 
-After setting up the Solana CLI, you can configure it to point to the Sonic Devnet Cluster for development. Learn more about Sonic's clusters [here](../../architecture/clusters.md).
+After setting up the Solana CLI, you can configure it to point to the Sonic Devnet Cluster for development. Learn more about Sonic's clusters [here](../infrastructure/clusters.md).
 
 After installing the Solana CLI you can run the following command to ensure that it's correctly installed.
 

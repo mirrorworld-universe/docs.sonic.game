@@ -2,14 +2,16 @@
 description: All important links at one place
 ---
 
-# Additional resources
+# Additional Resources
 
-Wallets
+SonicSVM has complete portability for Solana programs, so if you are building for Solana, you can deploy it to Solana without doing any code changes. You would just require to change the RPC URL and deploy there.
+
+#### Wallets Support List
 
 * [Backpack](https://backpack.app/)
 * [Nightly](https://nightly.app/)
 
-#### Important links
+#### Important Links
 
 | Testnet RPC URL       | [https://api.testnet.sonic.game/](https://api.testnet.sonic.game/)                                 |
 | --------------------- | -------------------------------------------------------------------------------------------------- |
