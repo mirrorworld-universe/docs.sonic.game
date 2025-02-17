@@ -24,7 +24,7 @@
 ## Architecture
 
 * [Overview](architecture/readme.md)
-* [Sonic Whitepaper](architecture/sonic-whitepaper.md)
+* [Sonic SVM Whitepaper](architecture/sonic-whitepaper.md)
 * [Vision & Architecture](architecture/vision-and-architecture.md)
 * [Clusters](developers/infrastructure/clusters.md)
 * [HyperGrid Framework](architecture/hypergrid-framework/README.md)
