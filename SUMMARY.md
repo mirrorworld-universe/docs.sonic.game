@@ -1,13 +1,6 @@
 # Table of contents
 
-## 🔎 Developers
-
 * [Welcome to Sonic](README.md)
-* [Getting Started](<README (1).md>)
-  * [Setup local development for Sonic SVM](developers/getting-started/setup-local-development.md)
-  * [Build & Deploy Your First Program](developers/getting-started/build-and-deploy-your-first-program.md)
-* [Infrastructure](developers/infrastructure/README.md)
-  * [Clusters](developers/infrastructure/clusters.md)
 
 ## Users
 
@@ -18,19 +11,22 @@
 
 ## Developers
 
-* [Why Choose Sonic?](developers-1/why-choose-sonic.md)
-* [Getting Started](developers-1/getting-started.md)
-* [Developer Tooling](developers-1/developer-tooling/README.md)
-  * [Explorer](developers-1/developer-tooling/explorer.md)
-  * [Faucet](developers-1/developer-tooling/faucet.md)
-  * [Wallet Extensions](developers-1/developer-tooling/wallet-extensions.md)
-* [Additional resources](developers-1/additional-resources.md)
+* [Why Choose Sonic?](developers/why-choose-sonic.md)
+* [Getting Started](developers/getting-started/README.md)
+  * [Setup local development for Sonic SVM](developers/getting-started/setup-local-development.md)
+  * [Build & Deploy Your First Program](developers/getting-started/build-and-deploy-your-first-program.md)
+* [Developer Tooling](developers/developer-tooling/README.md)
+  * [Explorer](developers/developer-tooling/explorer.md)
+  * [Faucet](developers/developer-tooling/faucet.md)
+  * [Wallet Extensions](developers/developer-tooling/wallet-extensions.md)
+* [Additional resources](developers/additional-resources.md)
 
 ## Architecture
 
 * [Overview](architecture/readme.md)
 * [Sonic Whitepaper](architecture/sonic-whitepaper.md)
 * [Vision & Architecture](architecture/vision-and-architecture.md)
+* [Clusters](architecture/clusters.md)
 * [HyperGrid Framework](architecture/hypergrid-framework/README.md)
   * [HyperGrid Infrastructure](architecture/hypergrid-framework/hypergrid-infrastructure/README.md)
     * [Architectural Overview](architecture/hypergrid-framework/hypergrid-infrastructure/architectural-overview.md)

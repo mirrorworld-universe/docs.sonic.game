@@ -24,7 +24,7 @@ Use `cargo build-bpf` for direct Rust usage.
 
 ## **4. Deploy Your Program**
 
-Before deploying your program, ensure your CLI is set to the [Sonic Devnet](../infrastructure/clusters.md#devnet) network using the following command:
+Before deploying your program, ensure your CLI is set to the [Sonic Devnet](../../architecture/clusters.md#devnet) network using the following command:
 
 ```bash
 solana config set --url https://devnet.sonic.game

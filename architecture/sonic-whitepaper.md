@@ -1,6 +1,8 @@
 # Sonic Whitepaper
 
 > This is an early version of this whitepaper. We intend to expound on it more in the coming weeks.
+>
+> Whitepaper Link: [Github](https://github.com/mirrorworld-universe/reports/blob/master/Sonic%20SVM%20%E2%80%93%20A%20HyperGrid%20Scaling%20Future%20of%20Solana.pdf)
 
 The Solana blockchain is renowned for its high throughput capabilities and relatively low gas fees, and it has seen rapid growth in recent years. The number of wallet accounts grew from 100,000 in 2022 to 1 million in 2023, and is expected to reach 5 million in 2024, 10 million in 2025, 25 million in 2026, and 50 million in 2027.&#x20;
 

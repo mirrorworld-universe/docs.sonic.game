@@ -4,11 +4,11 @@ SonicSVM has complete portability for Solana programs, so if you are building fo
 
 ### Important links
 
-You can check the important links here: [clusters.md](../developers/infrastructure/clusters.md "mention")
+You can check the important links here: [clusters.md](../architecture/clusters.md "mention")
 
 ### Wallet Support
 
-You can check wallet support list here: [wallet-extensions.md](../developers-1/developer-tooling/wallet-extensions.md "mention")
+You can check wallet support list here: [wallet-extensions.md](../developers/developer-tooling/wallet-extensions.md "mention")
 
 ### Developer Docs, Libraries and Frameworks
 
