@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Bridging funds to Sonic
 
 You can bridge funds to Sonic from Solana using the following bridges&#x20;
