@@ -13,12 +13,11 @@ SonicSVM has complete portability for Solana programs, so if you are building fo
 
 #### Important Links
 
-| Testnet RPC URL       | [https://api.testnet.sonic.game/](https://api.testnet.sonic.game/)                                 |
-| --------------------- | -------------------------------------------------------------------------------------------------- |
-| Mainnet Alpha RPC URL | [https://api.mainnet-alpha.sonic.game](https://api.mainnet-alpha.sonic.game)                       |
-| Faucet                | [https://faucet.sonic.game/#/](https://faucet.sonic.game/#/)                                       |
-| Explorer              | [https://explorer.sonic.game/](https://explorer.sonic.game/)                                       |
-| HSSN Explorer         | [https://explorer-hssn.mainnet-alpha.sonic.game/](https://explorer-hssn.mainnet-alpha.sonic.game/) |
+| Testnet RPC URL | [https://api.testnet.sonic.game/](https://api.testnet.sonic.game/)                                 |
+| --------------- | -------------------------------------------------------------------------------------------------- |
+| Faucet          | [https://faucet.sonic.game/#/](https://faucet.sonic.game/#/)                                       |
+| Explorer        | [https://explorer.sonic.game/](https://explorer.sonic.game/)                                       |
+| HSSN Explorer   | [https://explorer-hssn.mainnet-alpha.sonic.game/](https://explorer-hssn.mainnet-alpha.sonic.game/) |
 
 #### Developer Docs, Libraries and Frameworks
 
