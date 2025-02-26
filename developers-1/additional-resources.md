@@ -11,8 +11,6 @@ SonicSVM has complete portability for Solana programs, so if you are building fo
 * [Backpack](https://backpack.app/)
 * [Nightly](https://nightly.app/)
 * [OKX](https://www.okx.com/download)
-* [Bybit](https://www.bybit.com/en/web3/home)
-* [Bitget](https://web3.bitget.com/en/wallet-download)
 
 #### Important Links
 
