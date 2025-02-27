@@ -1,7 +1,3 @@
----
-hidden: true
----
-
 # Additional Tools & Examples
 
 As Sonic's ecosystem is growing, more native Solana tools are becoming available on Sonic as well.&#x20;
