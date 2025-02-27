@@ -15,11 +15,15 @@ SonicSVM has complete portability for Solana programs, so if you are building fo
 
 #### Important Links
 
-| Testnet RPC URL | [https://api.testnet.sonic.game/](https://api.testnet.sonic.game/)                                 |
-| --------------- | -------------------------------------------------------------------------------------------------- |
-| Faucet          | [https://faucet.sonic.game/#/](https://faucet.sonic.game/#/)                                       |
-| Explorer        | [https://explorer.sonic.game/](https://explorer.sonic.game/)                                       |
-| HSSN Explorer   | [https://explorer-hssn.mainnet-alpha.sonic.game/](https://explorer-hssn.mainnet-alpha.sonic.game/) |
+| Mainnet RPC URL            | [https://rpc.mainnet-alpha.sonic.game](https://rpc.mainnet-alpha.sonic.game)               |
+| -------------------------- | ------------------------------------------------------------------------------------------ |
+| Secondary Mainnet RPC URL  | [https://api.mainnet-alpha.sonic.game](https://api.mainnet-alpha.sonic.game)               |
+| Mainnet gRPC URL           | [https://grpc.mainnet-alpha.sonic.game:10000](https://grpc.mainnet-alpha.sonic.game:10000) |
+| Explorer                   | [https://explorer.sonic.game/](https://explorer.sonic.game/)                               |
+| Sonic bridge               | [https://bridge.sonic.game/](https://bridge.sonic.game/)                                   |
+| Hyperlane bridge           | [https://www.usenexus.org/](https://www.usenexus.org/)                                     |
+| Testnet RPC URL            | [https://api.testnet.sonic.game/](https://api.testnet.sonic.game/)                         |
+| Faucet                     | [https://faucet.sonic.game/#/](https://faucet.sonic.game/#/)                               |
 
 #### Developer Docs, Libraries and Frameworks
 
