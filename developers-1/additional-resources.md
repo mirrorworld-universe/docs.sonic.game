@@ -18,6 +18,7 @@ SonicSVM has complete portability for Solana programs, so if you are building fo
 | Mainnet RPC URL            | [https://rpc.mainnet-alpha.sonic.game](https://rpc.mainnet-alpha.sonic.game)               |
 | -------------------------- | ------------------------------------------------------------------------------------------ |
 | Secondary Mainnet RPC URL  | [https://api.mainnet-alpha.sonic.game](https://api.mainnet-alpha.sonic.game)               |
+| Helius RPC URL             | [https://sonic.helius-rpc.com/](https://sonic.helius-rpc.com/)                             |
 | Mainnet gRPC URL           | [https://grpc.mainnet-alpha.sonic.game:10000](https://grpc.mainnet-alpha.sonic.game:10000) |
 | Explorer                   | [https://explorer.sonic.game/](https://explorer.sonic.game/)                               |
 | Sonic bridge               | [https://bridge.sonic.game/](https://bridge.sonic.game/)                                   |
