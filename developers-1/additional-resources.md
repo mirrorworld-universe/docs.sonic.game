@@ -10,21 +10,35 @@ SonicSVM has complete portability for Solana programs, so if you are building fo
 
 * [Backpack](https://backpack.app/)
 * [Nightly](https://nightly.app/)
-* [OKX](https://www.okx.com/download)
+* [OKX](https://www.okx.com/zh-hans/web3/wallet/sonic-svm)
 * [Bybit](https://www.bybit.com/en/web3/home)
 
 #### Important Links
 
-| Mainnet RPC URL            | [https://rpc.mainnet-alpha.sonic.game](https://rpc.mainnet-alpha.sonic.game)               |
-| -------------------------- | ------------------------------------------------------------------------------------------ |
-| Secondary Mainnet RPC URL  | [https://api.mainnet-alpha.sonic.game](https://api.mainnet-alpha.sonic.game)               |
-| Helius RPC URL             | [https://sonic.helius-rpc.com/](https://sonic.helius-rpc.com/)                             |
-| Mainnet gRPC URL           | [https://grpc.mainnet-alpha.sonic.game:10000](https://grpc.mainnet-alpha.sonic.game:10000) |
-| Explorer                   | [https://explorer.sonic.game/](https://explorer.sonic.game/)                               |
-| Sonic bridge               | [https://bridge.sonic.game/](https://bridge.sonic.game/)                                   |
-| Hyperlane bridge           | [https://www.usenexus.org/](https://www.usenexus.org/)                                     |
-| Testnet RPC URL            | [https://api.testnet.sonic.game/](https://api.testnet.sonic.game/)                         |
-| Faucet                     | [https://faucet.sonic.game/#/](https://faucet.sonic.game/#/)                               |
+\
+RPC URLs
+
+|                    |                                                                                            |
+| ------------------ | ------------------------------------------------------------------------------------------ |
+| Mainnet            | [https://rpc.mainnet-alpha.sonic.game](https://rpc.mainnet-alpha.sonic.game)               |
+| Secondary Mainnet  | [https://api.mainnet-alpha.sonic.game](https://api.mainnet-alpha.sonic.game)               |
+| Helius             | [https://sonic.helius-rpc.com/](https://sonic.helius-rpc.com/)                             |
+| Mainnet gRPC       | [https://grpc.mainnet-alpha.sonic.game:10000](https://grpc.mainnet-alpha.sonic.game:10000) |
+| Testnet            | [https://api.testnet.sonic.game/](https://api.testnet.sonic.game/)                         |
+
+Bridges
+
+|           |                                                          |
+| --------- | -------------------------------------------------------- |
+| Sonic     | [https://bridge.sonic.game/](https://bridge.sonic.game/) |
+| Hyperlane | [https://www.usenexus.org/](https://www.usenexus.org/)   |
+
+Additional Links
+
+|           |                                                              |
+| --------- | ------------------------------------------------------------ |
+| Faucet    | [https://faucet.sonic.game/#/](https://faucet.sonic.game/#/) |
+| Explorer  | [https://explorer.sonic.game/](https://explorer.sonic.game/) |
 
 #### Developer Docs, Libraries and Frameworks
 
@@ -36,6 +50,7 @@ SonicSVM has complete portability for Solana programs, so if you are building fo
 | Anchor              | Smart Contracts Framework                           | Rust              | [https://www.anchor-lang.com/docs](https://www.anchor-lang.com/docs)                                                                                                   |
 | Steel               | Smart Contracts Framework                           | Rust              | [https://github.com/regolith-labs/steel](https://github.com/regolith-labs/steel)                                                                                       |
 | Sol Playground      | Online Smart Contract IDE                           | Rust              | [https://beta.solpg.io/](https://beta.solpg.io/)                                                                                                                       |
+| Privy               | Embedded Wallets                                    | Typescript        | [Docs](https://docs.privy.io/guide/react/wallets/usage/solana/#custom-svm)                                                                                             |
 | Metaplex            | All things NFTs                                     | Typescript & Rust | [https://developers.metaplex.com/](https://developers.metaplex.com/)                                                                                                   |
 | Pyth                | Real time price feed oracles                        | Typescript & Rust | [https://www.pyth.network/](https://www.pyth.network/)                                                                                                                 |
 | Solana Cookbook     | Code snippets to do different types of interactions | Typescript & Rust | [https://solana.com/developers/cookbook](https://solana.com/developers/cookbook)                                                                                       |
