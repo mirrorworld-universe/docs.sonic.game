@@ -24,16 +24,7 @@ Each game ecosystem operates within its own specialized Grid, enabling:
 * Optimized performance characteristics
 * Flexible resource allocation
 
-#### 2. Atomic Composability
-
-All operations maintain atomic guarantees through:
-
-* Direct state synchronization with Solana
-* Cross-grid communication
-* Instant finality within grids
-* Consistent state updates across layers
-
-#### 3. Horizontal Scalability
+#### 2. Horizontal Scalability
 
 True scaling is achieved through:
 

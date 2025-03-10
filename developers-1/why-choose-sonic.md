@@ -4,10 +4,6 @@
 
 Sonic offers a \[really] fast on-chain game experience amongst all gaming L1s, powered by SVM.
 
-#### Atomic Interoperability
-
-Execute transactions on Sonic without redeploying your Solana programs & accounts. Benefit directly from Solana's Base Layer services and liquidity.
-
 #### Composable Gaming Primitives & Sandbox Environment
 
 Sonic exposes native composable gaming primitives and extensible data types based on the ECS framework on-chain. The game engine sandbox utilities to developers while building their business logic on chain.
