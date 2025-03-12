@@ -14,4 +14,5 @@ As Sonic's ecosystem is growing, more native Solana tools are becoming available
 | Feed                      | Onchain provable randomness                   | [Docs](https://feed-protocol.gitbook.io/docs)                                                                                        | FEED1qspts3SRuoEyG29NMNpsTKX8yG9NGMinNC4GeYB |
 | Sonic Agent Kit           | Make LLMs do interactions on Sonic            | [Github](https://github.com/sendaifun/sonic-agent-kit)                                                                               |                                              |
 | Privy                     | Embedded Wallets                              | [Docs](https://docs.privy.io/guide/react/wallets/usage/solana/#custom-svm)                                                           |                                              |
+| Damn Fun                  | Build and deploy AI-native games              | [Docs](https://docs.digimon.tech/digimon) , [Example](https://github.com/CohumanSpace/damn-example)                                  |                                              |
 
