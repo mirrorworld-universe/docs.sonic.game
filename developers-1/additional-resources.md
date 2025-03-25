@@ -28,10 +28,11 @@ RPC URLs
 
 Bridges
 
-|           |                                                          |
-| --------- | -------------------------------------------------------- |
-| Sonic     | [https://bridge.sonic.game/](https://bridge.sonic.game/) |
-| Hyperlane | [https://www.usenexus.org/](https://www.usenexus.org/)   |
+|             |                                                                          |
+| ----------- | ------------------------------------------------------------------------ |
+| Sonic       | [https://bridge.sonic.game/](https://bridge.sonic.game/)                 |
+| Hyperlane   | [https://www.usenexus.org/](https://www.usenexus.org/)                   |
+| Superbridge | [https://sonic-svm.superbridge.app/](https://sonic-svm.superbridge.app/) |
 
 Additional Links
 
