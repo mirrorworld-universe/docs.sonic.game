@@ -26,6 +26,8 @@ RPC URLs
 | Mainnet gRPC       | [https://grpc.mainnet-alpha.sonic.game:10000](https://grpc.mainnet-alpha.sonic.game:10000) |
 | Testnet            | [https://api.testnet.sonic.game/](https://api.testnet.sonic.game/)                         |
 
+We support 300 requests per second across all the _mainnet-alpha.sonic.game_ domain.
+
 Bridges
 
 |             |                                                                          |
