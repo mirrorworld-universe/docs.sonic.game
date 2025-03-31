@@ -15,4 +15,5 @@ As Sonic's ecosystem is growing, more native Solana tools are becoming available
 | Sonic Agent Kit           | Make LLMs do interactions on Sonic            | [Github](https://github.com/sendaifun/sonic-agent-kit)                                                                               |                                              |
 | Privy                     | Embedded Wallets                              | [Docs](https://docs.privy.io/guide/react/wallets/usage/solana/#custom-svm)                                                           |                                              |
 | Damn Fun                  | Build and deploy AI-native games              | [Docs](https://docs.digimon.tech/digimon) , [Example](https://github.com/CohumanSpace/damn-example)                                  |                                              |
+| MPC Vault                 | Multichain Multisig Wallet                    | [Website](https://mpcvault.com/)                                                                                                     |                                              |
 

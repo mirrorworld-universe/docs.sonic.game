@@ -19,8 +19,11 @@
   * [Explorer](developers-1/developer-tooling/explorer.md)
   * [Faucet](developers-1/developer-tooling/faucet.md)
   * [Wallet Extensions](developers-1/developer-tooling/wallet-extensions.md)
-  * [Additional Tools & Examples](developers/developer-tooling/additional-tools-and-examples.md)
-* [Additional Resources](developers-1/additional-resources.md)
+
+***
+
+* [Additional Tools & Examples](additional-tools-and-examples.md)
+* [Additional Resources](additional-resources.md)
 
 ## Architecture
 
