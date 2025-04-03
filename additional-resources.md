@@ -12,7 +12,7 @@ SonicSVM has complete portability for Solana programs, so if you are building fo
 * [Nightly](https://nightly.app/)
 * [OKX](https://www.okx.com/zh-hans/web3/wallet/sonic-svm)
 * [Bybit](https://www.bybit.com/en/web3/home)
-* [NuFi](https://wallet.nu.fi/)
+* [NuFi](https://nu.fi/)
 
 #### Important Links
 
