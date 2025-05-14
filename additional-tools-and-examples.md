@@ -16,4 +16,5 @@ As Sonic's ecosystem is growing, more native Solana tools are becoming available
 | Privy                     | Embedded Wallets                              | [Docs](https://docs.privy.io/guide/react/wallets/usage/solana/#custom-svm)                                                           |                                              |
 | Damn Fun                  | Build and deploy AI-native games              | [Docs](https://docs.digimon.tech/digimon) , [Example](https://github.com/CohumanSpace/damn-example)                                  |                                              |
 | MPC Vault                 | Multichain Multisig Wallet                    | [Website](https://mpcvault.com/)                                                                                                     |                                              |
+| Kronos                    | SonicSVM Native Multisig                      | [Website](https://kronus.sonic.game/)                                                                                                |                                              |
 
