@@ -31,11 +31,12 @@ We support 300 requests per second across all the _mainnet-alpha.sonic.game_ dom
 
 Bridges
 
-|             |                                                                          |
-| ----------- | ------------------------------------------------------------------------ |
-| Sonic       | [https://bridge.sonic.game/](https://bridge.sonic.game/)                 |
-| Hyperlane   | [https://www.usenexus.org/](https://www.usenexus.org/)                   |
-| Superbridge | [https://sonic-svm.superbridge.app/](https://sonic-svm.superbridge.app/) |
+|                 |                                                                          |
+| --------------- | ------------------------------------------------------------------------ |
+| Sonic           | [https://bridge.sonic.game/](https://bridge.sonic.game/)                 |
+| Hyperlane       | [https://www.usenexus.org/](https://www.usenexus.org/)                   |
+| Superbridge     | [https://sonic-svm.superbridge.app/](https://sonic-svm.superbridge.app/) |
+| Orbiter Finance | [https://www.orbiter.finance/](https://www.orbiter.finance/)             |
 
 Additional Links
 
