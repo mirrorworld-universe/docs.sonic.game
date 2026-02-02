@@ -62,5 +62,6 @@
 
 ## RESOURCES
 
+* [🚀 Sonic Mainnet Infrastructure Upgrade Notice](resources/sonic-mainnet-infrastructure-upgrade-notice.md)
 * [Audit Reports](resources/audit-reports.md)
 * [We're Hiring!](resources/were-hiring.md)
